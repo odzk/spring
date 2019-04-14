@@ -1,8 +1,15 @@
+@font-face {
+  font-family: 'gotham';
+  src: url('../fonts/gotham_medium_regular-webfont.woff') format('woff'),
+       url('../fonts/gotham_medium_regular.ttf')  format('truetype');
+}
+
 body {
 	background: url('../img/bg-whole.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	height:1000px;
+	font-family: gotham;
 }
 
 .circle-title {
@@ -16,7 +23,31 @@ body {
 }
 
 .option1 {
-	background: #e8ebf4;
+	background: rgba(232, 235, 244, 0.8);
+	margin-top: 100px;
+	border-radius: 10px;
+}
+
+
+.btnpos {
+	margin-top: -80px;
+}
+
+.option1btn {
+padding: 20px 60px;
+background: rgba(232, 235, 244, 0.8);
+border-radius: 20px;
+font-size: 2em;
+color: #0a6cb7;
+letter-spacing: 2px;
+border: 3px solid #0a6cb7;
+}
+
+.promo-code1 {
+	position: absolute;
+	width: 180px;
+	left: -100px;
+	top: -90px;
 }
 
 @media only screen and (min-width:960px){
