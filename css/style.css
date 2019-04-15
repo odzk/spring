@@ -21,6 +21,8 @@ body {
 	margin-top: 32%;
 }
 
+
+/* Option 1 */
 .option1 {
 	background: rgba(232, 235, 244, 0.8);
 	margin-top: 100px;
@@ -80,6 +82,50 @@ border: 3px solid #0a6cb7;
 
 .chart-desc {
 	color: #582247;
+}
+
+/* Option 2 */
+.option2 {
+	background: rgba(232, 235, 244, 0.8);
+	margin-top: 100px;
+	border-radius: 10px;
+	padding: 40px 40px 0 40px;
+}
+
+.opt2-desc {
+	color: #582247;
+	font-size: 28px;
+	margin-top: 30px;
+}
+
+.option2btn {
+padding: 20px 60px;
+background: rgba(232, 235, 244, 0.8);
+border-radius: 20px;
+font-size: 2em;
+color: #582247;
+letter-spacing: 2px;
+border: 3px solid #582247;
+}
+
+.promo-code2 {
+	position: absolute;
+	width: 180px;
+	left: -80px;
+	top: -90px;
+}
+
+.banner-desc {
+	color: #0a6cb7;
+}
+
+.select_btn {
+	width: 300px;
+}
+
+.reminders {
+	color: #fff;
+	font-size: 22px;
 }
 
 @media only screen and (min-width:960px){
