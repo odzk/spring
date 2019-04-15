@@ -45,11 +45,14 @@ padding: 20px 60px;
 background: rgba(232, 235, 244, 0.8);
 border-radius: 20px;
 font-size: 2em;
-color: #0a6cb7;
+color: #0a6cb7 !important;
 letter-spacing: 2px;
 border: 3px solid #0a6cb7;
 }
 
+a.option1btn:hover {
+	background: rgba(88,34,71, 0.9);
+}
 .promo-code1 {
 	position: absolute;
 	width: 180px;
@@ -103,9 +106,13 @@ padding: 20px 60px;
 background: rgba(232, 235, 244, 0.8);
 border-radius: 20px;
 font-size: 2em;
-color: #582247;
+color: #582247 !important;
 letter-spacing: 2px;
 border: 3px solid #582247;
+}
+
+a.option2btn:hover {
+	background: rgba(10,108,183,0.8);
 }
 
 .promo-code2 {
@@ -162,6 +169,14 @@ border: 3px solid #582247;
 .sns-text {
 	color: #fff;
 	font-size: 24px;
+}
+
+a.apply_now:hover {
+	color: red;
+}
+
+a.read_more:hover {
+	color: red;
 }
 
 @media only screen and (min-width:960px){
