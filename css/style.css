@@ -5,7 +5,7 @@
 }
 
 body {
-	background: url('../img/bg-whole.png');
+	background: url('../img/bg-whole_sm.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: gotham;
@@ -76,7 +76,7 @@ border: 3px solid #0a6cb7;
 }
 
 .books, .housing, .id {
-	margin-left: 30px;
+	margin-left: 20px;
 	text-align: center;
 }
 
@@ -126,6 +126,42 @@ border: 3px solid #582247;
 .reminders {
 	color: #fff;
 	font-size: 22px;
+}
+
+.footer {
+	background: rgba(64,84,147, 0.8);
+}
+
+.promo-valid {
+	width: 180px;
+	height: 147px;
+	margin-top: 40px;
+}
+
+.whatsapp {
+	width: 400px;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+.logo {
+	width: 350px;
+	margin-top: 40px;
+}
+
+.logo-text {
+	color: #fff;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+
+.sns {
+	margin-top: 30px;
+}
+
+.sns-text {
+	color: #fff;
+	font-size: 24px;
 }
 
 @media only screen and (min-width:960px){
